@@ -58,6 +58,7 @@ mv zenbot-master zenbot
 Create your configuration file by copying `conf-sample.js` to `conf.js`:
 
 ```
+cd zenbot
 cp conf-sample.js conf.js
 ```
 
@@ -71,7 +72,6 @@ If using Docker, skip to section "Docker" below.
 Install dependencies:
 
 ```
-cd zenbot
 npm install
 # optional, installs the `zenbot.sh` binary in /usr/local/bin:
 npm link
